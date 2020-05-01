@@ -324,7 +324,7 @@ dapat dijalankan secara daring menggunakan [http://cpp.sh/](http://cpp.sh/) atau
 Fungsi yang dimaksud adalah
 
 ```JavaScript
-main();					//Fungsi utama didefinisikan
+main();						//Fungsi utama didefinisikan
 function main() {
     var p = "0011110";
     [xs, ys, cs] = getValues(p);
@@ -349,10 +349,150 @@ dengan hasil yang diperoleh sebagai berikut
 
 ### b
 
+Fungsi yang dimaksud adalah
+
+```JavaScript
+main();
+// Fungsi Utama didefinisikan
+function main() {
+    var p = "1101110";
+    [xs, ys, cs] = getValues(p);
+    var hasil = 1/(1+fitness(xs,ys));		//Fungsi Fitting
+    console.log("p =",p);
+    console.log("x =",xs);
+    console.log("y =",ys);
+    console.log("c =",cs);
+    console.log("hasil = ",hasil);
+}
+
+function getValues() {
+    var p = arguments[0];
+    var xs = p.slice(0, 3);
+    var ys = p.slice(3, 6);
+    var cs = p.slice(6);
+    return [xs, ys, cs];
+}
+
+function fitness(a, b) {			//Fungsi Fitting Bagian Akar
+  return(Math.sqrt(Math.pow((a - 111), 2) + Math.pow((b - 111),2)));
+}
+```
+
 ### c
 
-### d
+Fungsi yang dimaksud adalah
 
+```JavaScript
+main();
+//Fungsi utama di definisikan
+function main() 
+{ var p = "1000110"; //variabel kromosom yang akan diperiksa
+var q = "1011111"; 
+var r = "1111001"; 
+var s = "1100110"; 
+var t = "1011101"; 
+ var threshold= 0.5;
+[x1, y1, c1] = getValues(p); 
+[x2, y2, c2] = getValues(q); 
+[x3, y3, c3] = getValues(r); 
+[x4, y4, c4] = getValues(s); 
+[x5, y5, c5] = getValues(t); 
+var h1 = 1/(1+fitness(x1,y1));
+var seleksi1 = selection(threshold, h1, p)
+console.log("p =",p); 
+console.log("x =",x1); 
+console.log("y =",y1); 
+console.log("c =",c1);
+console.log("h = ",h1);
+console.log("seleksi = ",p," ",  seleksi1);
+var h2 = 1/(1+fitness(x2,y2));
+var seleksi2 = selection(threshold, h2, q)
+console.log("q =",q); 
+console.log("x =",x2); 
+console.log("y =",y2); 
+console.log("c =",c2); 
+console.log("h = ",h2);
+console.log("seleksi = ",q," ",  seleksi2);
+var h3 = 1/(1+fitness(x3,y3));
+var seleksi3 = selection(threshold, h3, r)
+console.log("r =",r); 
+console.log("x =",x3); 
+console.log("y =",y3); 
+console.log("c =",c3); 
+console.log("h = ",h3);
+console.log("seleksi = ",r," ",  seleksi3);
+var h4 = 1/(1+fitness(x4,y4));
+var seleksi4 = selection(threshold, h4, s)
+console.log("s =",s); 
+console.log("x =",x4); 
+console.log("y =",y4); 
+console.log("c =",c4); 
+console.log("h = ",h4);
+console.log("seleksi = ",s," ", seleksi4);
+var h5 = 1/(1+fitness(x5,y5));
+var seleksi5 = selection(threshold, h5, t)
+console.log("t =",t); 
+console.log("x =",x5); 
+console.log("y =",y5); 
+console.log("c =",c5); 
+console.log("hasil = ",h5);
+console.log("seleksi = ",t," ", seleksi5);
+}
+
+function getValues() 
+{ var p = arguments[0];
+var xs = p.slice(0, 3); 
+var ys = p.slice(3, 6); 
+var cs = p.slice(6);
+return [xs, ys, cs]; 
+}
+function fitness(a, b) 
+{ return(Math.sqrt(Math.pow((a - 111), 2) + Math.pow((b - 111),2))); 
+}
+
+function selection(threshold, a, p)          
+//fungsi seleksi nilai kromosom dengan threshold nilai fitness >= 0,5
+{ if (a>=threshold) { result="pass the selection";
+} else { result="didnt pass the selection";
+}
+return (result);
+}
+```
+
+### d 
+
+Adapun program yang dimaksud sebagai berikut
+
+```JavaScript
+main();
+
+// Fungsi utama didefiniskan
+function main() {
+    var p = "1001101";    //Masukkan angka kromosom yang ingin diuji
+    [xs, ys, cs] = getValues(p);
+    var hasil = 1/(1+fitness(xs,ys));
+    console.log("p =",p);
+    console.log("x =",xs);
+    console.log("y =",ys);
+    console.log("c =",cs);
+    console.log("hasil = ",hasil);
+
+}
+
+function getValues() {
+    var p = arguments[0];
+
+    var xs = p.slice(0, 3);
+    var ys = p.slice(3, 6);
+    var cs = p.slice(6);
+
+    return [xs, ys, cs];
+}
+
+function fitness(a, b) {
+return(Math.sqrt(Math.pow((a - 101), 2) + Math.pow((b - 100),2)));	//Nilai dalam akar disesuaikan untuk kromoson referensi
+}
+```
 
 ## Soal 5 | Research based learning
 
