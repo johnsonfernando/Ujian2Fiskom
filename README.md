@@ -7,7 +7,7 @@ Terdapat lima orang anggota pada kelompok 8 ini dengan fraksi kontribusinya pada
 | NIM      | Nama                  | Peran pada soal (dan fraksi kontribusinya)   |
 |----------|-----------------------|----------------------------------------------|
 |          |                       |                                              |
-| 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.30) 3 (0.00) 4 (0.00) 5 (0.10) |
+| 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.30) 3 (1.00) 4 (0.00) 5 (0.10) |
 | 10217013 | Alika Rahma G.        | 1 (0.00) 2 (0.65) 3 (0.00) 4 (0.00) 5 (0.00) |
 | 10217018 | Johnson Fernando      | 1 (0.75) 2 (0.05) 3 (0.00) 4 (0.00) 5 (0.00) |
 | 10217057 | Ighfar Hasbi A.       | 1 (0.00) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.90) |
