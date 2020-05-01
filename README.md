@@ -332,11 +332,22 @@ dapat dijalankan secara daring menggunakan [http://cpp.sh/](http://cpp.sh/) atau
 
 ## Soal 3 | Jaringan saraf tiruan dengan aplikasi TensorFlow
 
+
 ### a
+
+Pada soal JST dengan aplikasi TensorFlow, untuk mengetahui notasi arsitektur dari JST agar dapat terklasifikasi dengan baik dalam dua kelas. Dimulai dengan memisalkan input dimana pada TensorFlow terihat X1 dan X2 dimisalkan sebagi X dan Y pada data yang diberikan didalam soal, asumsi pula bahwa biru adalah X dan jingga adalah Y. Selanjutnya memvariasikan hidden layer agar sukses dalam klasifikasi dua kelas. Keberhasilan dalam klasifikasi ini dapat terlihat dengan adanya arrange biru di titik biru dan jingga di titik jingga.
+
+Adapun hasil dari perlakuan tersebut sebagai berikut
+
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/3a.png "3a")
 
 ### b
 
+Pada soal JST dengan aplikasi TensorFlow, untuk mengetahui notasi arsitektur dari JST agar dapat terklasifikasi dengan baik dalam dua kelas. Dimulai dengan memisalkan input dimana pada TensorFlow terihat X1 dan X2 dimisalkan sebagi X dan Y pada data yang diberikan didalam soal, asumsi pula bahwa biru adalah X dan jingga adalah Y. Selanjutnya memvariasikan hidden layer agar sukses dalam klasifikasi dua kelas. Keberhasilan dalam klasifikasi ini dapat terlihat dengan adanya arrange biru di titik biru dan jingga di titik jingga.
+
 ### c
+
+Pada soal JST dengan aplikasi TensorFlow, untuk mengetahui notasi arsitektur dari JST agar dapat terklasifikasi dengan baik dalam dua kelas. Dimulai dengan memisalkan input dimana pada TensorFlow terihat X1 dan X2 dimisalkan sebagi X dan Y pada data yang diberikan didalam soal, asumsi pula bahwa biru adalah X dan jingga adalah Y. Selanjutnya memvariasikan hidden layer agar sukses dalam klasifikasi dua kelas. Keberhasilan dalam klasifikasi ini dapat terlihat dengan adanya arrange biru di titik biru dan jingga di titik jingga.
 
 ### d
 
