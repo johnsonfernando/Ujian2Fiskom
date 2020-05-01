@@ -8,10 +8,10 @@ Terdapat lima orang anggota pada kelompok 8 ini dengan fraksi kontribusinya pada
 |----------|-----------------------|----------------------------------------------|
 |          |                       |                                              |
 | 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.25) 3 (0.00) 4 (0.00) 5 (0.00) |
-| 10217013 | Alika Rahma G.        | 1 (0.00) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.00) |
-| 10217018 | Johnson Fernando      | 1 (0.50) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.00) |
+| 10217013 | Alika Rahma G.        | 1 (0.00) 2 (0.25) 3 (0.00) 4 (0.00) 5 (0.00) |
+| 10217018 | Johnson Fernando      | 1 (0.75) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.00) |
 | 10217057 | Ighfar Hasbi A.       | 1 (0.00) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.00) |
-| 10217065 | Pangeran Niti K.      | 1 (0.25) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.00) |
+| 10217065 | Pangeran Niti K.      | 1 (0.25) 2 (0.00) 3 (0.00) 4 (1.00) 5 (0.00) |
 |          |                       |                                              |
 |          | Total                 | 1 (1.00) 2 (1.00) 3 (1.00) 4 (1.00) 5 (1.00) |
 
@@ -324,29 +324,29 @@ dapat dijalankan secara daring menggunakan [http://cpp.sh/](http://cpp.sh/) atau
 Fungsi yang dimaksud adalah
 
 ```JavaScript
-// Get interpretation of position and group from chromosome
+//Fungsi utama didefinisikan
+main();
+function main() {
+    var p = "0011110";
+    [xs, ys, cs] = getValues(p);
+    console.log("p =",p);
+    console.log("x =",xs);
+    console.log("y =",ys);
+    console.log("c =",cs);
+}
 function getValues() {
-	var p = arguments[0];
-	
-	var xs = p.slice(0, 3);
-	var ys = p.slice(3, 6);
-	var gs = p.slice(6);
-	
-	var x = -1;
-	var y = -1;
-	var g = -1;
-	
-	/*
-	x = xs;
-	y = ys;
-	g = gs;
-	*/
-	
-	return [x, y, g];
+    var p = arguments[0];
+    var xs = p.slice(0, 3);
+    var ys = p.slice(3, 6);
+    var cs = p.slice(6);
+
+    return [xs, ys, cs];
 }
 ```
 
-dengan .. (penjelasannya).
+dengan hasil yang diperoleh sebagai berikut
+
+
 
 ### b
 
