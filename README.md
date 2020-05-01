@@ -345,7 +345,7 @@ function getValues() {
 
 dengan hasil yang diperoleh sebagai berikut
 
-![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/issues/1#issue-610809131 "4a")
+![alt text]("4a")
 
 ### b
 
