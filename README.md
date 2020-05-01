@@ -324,8 +324,7 @@ dapat dijalankan secara daring menggunakan [http://cpp.sh/](http://cpp.sh/) atau
 Fungsi yang dimaksud adalah
 
 ```JavaScript
-//Fungsi utama didefinisikan
-main();
+main();					//Fungsi utama didefinisikan
 function main() {
     var p = "0011110";
     [xs, ys, cs] = getValues(p);
