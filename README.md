@@ -345,7 +345,7 @@ function getValues() {
 
 dengan hasil yang diperoleh sebagai berikut
 
-
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/issues/1#issue-610809131 "4a")
 
 ### b
 
@@ -493,6 +493,9 @@ function fitness(a, b) {
 return(Math.sqrt(Math.pow((a - 101), 2) + Math.pow((b - 100),2)));	//Nilai dalam akar disesuaikan untuk kromoson referensi
 }
 ```
+Adapun hasil yang didapatkan sebagai berikut
+- 
+
 
 ## Soal 5 | Research based learning
 
