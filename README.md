@@ -7,9 +7,9 @@ Terdapat lima orang anggota pada kelompok 8 ini dengan fraksi kontribusinya pada
 | NIM      | Nama                  | Peran pada soal (dan fraksi kontribusinya)   |
 |----------|-----------------------|----------------------------------------------|
 |          |                       |                                              |
-| 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.35) 3 (0.00) 4 (0.00) 5 (0.10) |
+| 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.30) 3 (0.00) 4 (0.00) 5 (0.10) |
 | 10217013 | Alika Rahma G.        | 1 (0.00) 2 (0.65) 3 (0.00) 4 (0.00) 5 (0.00) |
-| 10217018 | Johnson Fernando      | 1 (0.75) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.00) |
+| 10217018 | Johnson Fernando      | 1 (0.75) 2 (0.05) 3 (0.00) 4 (0.00) 5 (0.00) |
 | 10217057 | Ighfar Hasbi A.       | 1 (0.00) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.90) |
 | 10217065 | Pangeran Niti K.      | 1 (0.25) 2 (0.00) 3 (0.00) 4 (1.00) 5 (0.00) |
 |          |                       |                                              |
@@ -263,7 +263,7 @@ Jawaban pada soal berikut akan lebih jelas dilihat dalam [editor](https://rawcdn
 
 	\begin{equation}
 	\label{eqn:theta-2}
-	\theta(t) = \theta_0 \cos \left( \sqrt \frac{g}{l} t + \delta \right) = 0
+	\theta(t) = \theta_0 \cos \left( \sqrt \frac{g}{l} t + \delta \right)
 	\end{equation}
 
 	dengan $\theta_0$ dan $\delta$ adalah suatu konstanta yang bergantung pada kondisi
@@ -289,7 +289,30 @@ Jawaban pada soal berikut akan lebih jelas dilihat dalam [editor](https://rawcdn
 
 ### c
 
-	
+Jawaban pada soal berikut akan lebih jelas dilihat dalam [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729ca4605562caa6d7596b/0.0.2/editor.html).
+
+	Deret Taylor untuk $t \equiv t_0$ dinyatakan pada persamaan di bawah.
+
+	\begin{equation}
+	\label{eqn:taylor-1}
+	f(t+\triangle t)=f(t) + \triangle t \frac{df(t)}{dt} + \frac{1}{2} \triangle t^2 \frac{d^2 f(t)}{dt^2}+O(\triangle t^3)
+	\end{equation}
+
+	Bila posisi $\theta (t)$ merupakan $f(t)$ pada Deret Taylor di atas, maka dapat dituliskan bahwa
+
+	\begin{equation}
+	\label{eqn:taylor-2}
+	\theta (t+\triangle t)=\theta (t) + \dot{\theta} (t) \triangle t + \frac{1}{2} \ddot{\theta} (t) \triangle t^2 +O(\triangle t^2)
+	\end{equation}
+
+	dan
+
+	\begin{equation}
+	\label{eqn:taylor-3}
+	\dot{\theta} (t+\triangle t)=\dot{\theta} (t) + \ddot{\theta} \triangle t + O(\triangle t^3)
+	\end{equation}
+
+	yang merupakan solusi numerik dengan Algoritma Euler untuk sembarang nilai $\theta$.
 
 ### d
 Kode program berikut
@@ -565,4 +588,4 @@ Adapun diagram alirnya sebagai berikut
 Semakin banyak titik uji N yang digunakan, maka hasil π yang diperoleh akan mendekati nilai 3,1415926. Hal ini  terjadi karena semakin banyak titik uji N maka peluang titik acak M yang berada dalam lingkaran akan semakin besar dan akhirnya mendekati nilai π.
 
 ### e Referensi
-2. Penulis, "Judul", Journal, vol. no., pp. Bulan Tahun, DOI ..
+1. Michael Jay Schillaci, Ph.D., "A Monte-Carlo Calculation of Pi", Departemen of Computer Science, Mathematics and Physics Roberts Wesleyan Collage, Rochester, NY.
