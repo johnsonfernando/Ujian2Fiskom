@@ -345,7 +345,7 @@ function getValues() {
 
 dengan hasil yang diperoleh sebagai berikut
 
-![alt text]("4a")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4a.png "4a")
 
 ### b
 
@@ -459,6 +459,13 @@ return (result);
 }
 ```
 
+Adapun hasil yang didapatkan sebagai berikut
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c1.png "4c1")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c2.png "4c2")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c3.png "4c3")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c4.png "4c4")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c5.png "4c5")
+
 ### d 
 
 Adapun program yang dimaksud sebagai berikut
@@ -493,9 +500,14 @@ function fitness(a, b) {
 return(Math.sqrt(Math.pow((a - 101), 2) + Math.pow((b - 100),2)));	//Nilai dalam akar disesuaikan untuk kromoson referensi
 }
 ```
-Adapun hasil yang didapatkan sebagai berikut
-- 
+Adapun hasil yang didapatkan dari pengecekan variasi kromosom sebagai berikut
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d1.png "4d1")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d2.png "4d2")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d3.png "4d3")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d4.png "4d4")
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d5.png "4d5")
 
+Kromosom dengan hasil maksimal adalah kromoson 1011001 karena sama dengan kromoson *threshold* memiliki *fitness* 1 dan kromoson yang paling mendekati 1011001 adalah kromoson 1001101 dengan nilai *fitness* 0,09 dari 5 percobaan yang dilakukan.
 
 ## Soal 5 | Research based learning
 
