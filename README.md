@@ -12,7 +12,6 @@ Terdapat lima orang anggota pada kelompok 8 ini dengan fraksi kontribusinya pada
 | 10217018 | Johnson Fernando      | 1 (0.75) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.00) |
 | 10217057 | Ighfar Hasbi A.       | 1 (0.00) 2 (0.00) 3 (0.00) 4 (0.00) 5 (1.00) |
 | 10217065 | Pangeran Niti K.      | 1 (0.25) 2 (0.00) 3 (0.00) 4 (1.00) 5 (0.00) |
-|          |                       |                                              |
 |          | Total                 | 1 (1.00) 2 (1.00) 3 (0.00) 4 (1.00) 5 (1.00) |
 
 
@@ -460,10 +459,15 @@ return (result);
 ```
 
 Adapun hasil yang didapatkan sebagai berikut
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c1.png "4c1")
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c2.png "4c2")
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c3.png "4c3")
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c4.png "4c4")
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4c5.png "4c5")
 
 ### d 
@@ -501,10 +505,15 @@ return(Math.sqrt(Math.pow((a - 101), 2) + Math.pow((b - 100),2)));	//Nilai dalam
 }
 ```
 Adapun hasil yang didapatkan dari pengecekan variasi kromosom sebagai berikut
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d1.png "4d1")
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d2.png "4d2")
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d3.png "4d3")
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d4.png "4d4")
+
 ![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/4d5.png "4d5")
 
 Kromosom dengan hasil maksimal adalah kromoson 1011001 karena sama dengan kromoson *threshold* memiliki *fitness* 1 dan kromoson yang paling mendekati 1011001 adalah kromoson 1001101 dengan nilai *fitness* 0,09 dari 5 percobaan yang dilakukan.
@@ -513,13 +522,46 @@ Kromosom dengan hasil maksimal adalah kromoson 1011001 karena sama dengan kromos
 
 ### a Tujuan
 
-
+Menentukan nilai π menggunakan metode Monte Carlo.
 
 ### b Rumusan masalah
 
+Bagaimana pengaruh banyaknya titik uji terhadap ketelitian hasil nilai π.
+
 ### c Metode
 
+- Membandingkan titik uji yang masuk dalam interval M dengan titik uji total N.
+- Misalkan terdapat sebuah lingkaran dalam sebuah persegi seperti gambar berikut:
+
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/5c1.png "5c1")
+
+Adapun perhitungan pada bahasan berikut akan lebih jelas dilihat dalam [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729ca4605562caa6d7596b/0.0.2/editor.html).
+
+	Adapun luas lingkaran sebesar $\pi R^2$ dan luas persegi sebesar $4 R^2$,
+	maka perbandingan luas lingkaran dengan luas persegi adalah
+	
+	\begin{equation}
+	\label{eqn:circle-square}
+	\frac{L_lingkaran}{L_persegi} = \frac{\pi}{4}
+	\end{equation}
+	
+	Adapun hubungan perbandingan luas kedua bangun dengan perbandingan antara
+	M dan N adalah
+	
+	\begin{equation}
+	\label{eqn:circle-square-M-N}
+	\frac{\pi}{4} = \frac{M}{N}
+	\\
+	\pi = 4 \left(\frac{M}{N} \right)
+	\end{equation}
+
+Adapun diagram alirnya sebagai berikut
+
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/5c2.png "5c2")
+
 ### d Hasil dan diskusi
+
+Semakin banyak titik uji N yang digunakan, maka hasil π yang diperoleh akan mendekati nilai 3,1415926. Hal ini  terjadi karena semakin banyak titik uji N maka peluang titik acak M yang berada dalam lingkaran akan semakin besar dan akhirnya mendekati nilai π.
 
 ### e Referensi
 1. Penulis, "Judul", Website, ..
