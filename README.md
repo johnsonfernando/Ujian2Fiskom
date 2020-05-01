@@ -7,13 +7,13 @@ Terdapat lima orang anggota pada kelompok 8 ini dengan fraksi kontribusinya pada
 | NIM      | Nama                  | Peran pada soal (dan fraksi kontribusinya)   |
 |----------|-----------------------|----------------------------------------------|
 |          |                       |                                              |
-| 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.30) 3 (1.00) 4 (0.00) 5 (0.10) |
+| 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.30) 3 (0.80) 4 (0.00) 5 (0.10) |
 | 10217013 | Alika Rahma G.        | 1 (0.00) 2 (0.65) 3 (0.00) 4 (0.00) 5 (0.00) |
-| 10217018 | Johnson Fernando      | 1 (0.75) 2 (0.05) 3 (0.00) 4 (0.00) 5 (0.00) |
+| 10217018 | Johnson Fernando      | 1 (0.75) 2 (0.05) 3 (0.20) 4 (0.00) 5 (0.00) |
 | 10217057 | Ighfar Hasbi A.       | 1 (0.00) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.90) |
 | 10217065 | Pangeran Niti K.      | 1 (0.25) 2 (0.00) 3 (0.00) 4 (1.00) 5 (0.00) |
 |          |                       |                                              |
-|          | Total                 | 1 (1.00) 2 (1.00) 3 (0.00) 4 (1.00) 5 (1.00) |
+|          | Total                 | 1 (1.00) 2 (1.00) 3 (1.00) 4 (1.00) 5 (1.00) |
 
 
 
@@ -318,14 +318,7 @@ Jawaban pada soal berikut akan lebih jelas dilihat dalam [editor](https://rawcdn
 Kode program berikut
 
 ```C++
-/*
-	NamaProgram.cpp
-	
-	Menghitung sesuatu
-*/
-
-int main(int argc, char *argv[]) {
-}
+*Tidak dikerjakan*
 ```
 
 dapat dijalankan secara daring menggunakan [http://cpp.sh/](http://cpp.sh/) atau aplikasi lainnya.
@@ -345,12 +338,22 @@ Adapun hasil dari perlakuan tersebut sebagai berikut
 
 Pada soal JST dengan aplikasi TensorFlow, untuk mengetahui notasi arsitektur dari JST agar dapat terklasifikasi dengan baik dalam dua kelas. Dimulai dengan memisalkan input dimana pada TensorFlow terihat X1 dan X2 dimisalkan sebagi X dan Y pada data yang diberikan didalam soal, asumsi pula bahwa biru adalah X dan jingga adalah Y. Selanjutnya memvariasikan hidden layer agar sukses dalam klasifikasi dua kelas. Keberhasilan dalam klasifikasi ini dapat terlihat dengan adanya arrange biru di titik biru dan jingga di titik jingga.
 
+Adapun hasil dari perlakuan tersebut sebagai berikut
+
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/3b.png "3b")
+
 ### c
 
 Pada soal JST dengan aplikasi TensorFlow, untuk mengetahui notasi arsitektur dari JST agar dapat terklasifikasi dengan baik dalam dua kelas. Dimulai dengan memisalkan input dimana pada TensorFlow terihat X1 dan X2 dimisalkan sebagi X dan Y pada data yang diberikan didalam soal, asumsi pula bahwa biru adalah X dan jingga adalah Y. Selanjutnya memvariasikan hidden layer agar sukses dalam klasifikasi dua kelas. Keberhasilan dalam klasifikasi ini dapat terlihat dengan adanya arrange biru di titik biru dan jingga di titik jingga.
 
+Adapun hasil dari perlakuan tersebut sebagai berikut
+
+![alt text](https://github.com/johnsonfernando/Ujian2Fiskom/blob/master/3c.png "3c")
+
+
 ### d
 
+*Tidak dikerjakan*
 
 ## Soal 4 | Algoritma genetik sederhana dengan JS
 
