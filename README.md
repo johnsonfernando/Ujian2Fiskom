@@ -7,11 +7,12 @@ Terdapat lima orang anggota pada kelompok 8 ini dengan fraksi kontribusinya pada
 | NIM      | Nama                  | Peran pada soal (dan fraksi kontribusinya)   |
 |----------|-----------------------|----------------------------------------------|
 |          |                       |                                              |
-| 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.50) 3 (0.00) 4 (0.00) 5 (0.00) |
-| 10217013 | Alika Rahma G.        | 1 (0.00) 2 (0.50) 3 (0.00) 4 (0.00) 5 (0.00) |
+| 10217003 | Ima Rahmadanti        | 1 (0.00) 2 (0.35) 3 (0.00) 4 (0.00) 5 (0.10) |
+| 10217013 | Alika Rahma G.        | 1 (0.00) 2 (0.65) 3 (0.00) 4 (0.00) 5 (0.00) |
 | 10217018 | Johnson Fernando      | 1 (0.75) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.00) |
-| 10217057 | Ighfar Hasbi A.       | 1 (0.00) 2 (0.00) 3 (0.00) 4 (0.00) 5 (1.00) |
+| 10217057 | Ighfar Hasbi A.       | 1 (0.00) 2 (0.00) 3 (0.00) 4 (0.00) 5 (0.90) |
 | 10217065 | Pangeran Niti K.      | 1 (0.25) 2 (0.00) 3 (0.00) 4 (1.00) 5 (0.00) |
+|          |                       |                                              |
 |          | Total                 | 1 (1.00) 2 (1.00) 3 (0.00) 4 (1.00) 5 (1.00) |
 
 
@@ -564,5 +565,4 @@ Adapun diagram alirnya sebagai berikut
 Semakin banyak titik uji N yang digunakan, maka hasil π yang diperoleh akan mendekati nilai 3,1415926. Hal ini  terjadi karena semakin banyak titik uji N maka peluang titik acak M yang berada dalam lingkaran akan semakin besar dan akhirnya mendekati nilai π.
 
 ### e Referensi
-1. Penulis, "Judul", Website, ..
 2. Penulis, "Judul", Journal, vol. no., pp. Bulan Tahun, DOI ..
